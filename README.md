@@ -9,7 +9,7 @@ http://cachedview.com/
 /*Bajar peso de imagenes sin afectar la calidad*/
 https://resizeimage.net/
 https://tinypng.com/
-
+https://imagecompressor.com/es/
 /**/
 
 /**/
