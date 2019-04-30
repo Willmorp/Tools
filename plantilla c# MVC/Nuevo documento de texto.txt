@@ -2,7 +2,7 @@
 
 
 
-//Proceso de insertar set 
+//Proceso de Visualziar get 
 
 Views/MailAccount.aspx // vista html*********
 -------------------------------------------------------------------------------
@@ -127,3 +127,41 @@ using BussinesRules;
             Response.Write(answer);
         }
     }
+
+
+------------------------------------------------
+//Bussines Rules
+public string Get(int status)
+        {
+            string answer = "";
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                try
+                {
+                    connection.Open();
+                    DaPartner daPartner = new DaPartner();
+                    answer = daPartner.Get(connection, status);
+                    connection.Close();
+                }
+                catch (Exception e)
+                {
+                    RecordLog(e.Message, e.StackTrace);
+                }
+            }
+            return answer;
+        }
+---------------------------------------------------------------
+//DAO
+    public string Get(SqlConnection sqlConnection, int status)
+        {
+            string answer = "";
+            SqlCommand sqlCommand = new SqlCommand("[usp.Partner.Get]", sqlConnection);
+            sqlCommand.CommandType = CommandType.StoredProcedure;
+            sqlCommand.Parameters.AddWithValue("@status", status);
+
+            answer = (string)sqlCommand.ExecuteScalar();
+
+            return answer;
+        }
+
+
