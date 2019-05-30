@@ -1,0 +1,60 @@
+https://www.educasistemas.com/2018/07/sublimetext-la-vieja-confiable-plugins.html?fbclid=IwAR02egbf-O3SYU0vLm-sMv8dBPxgUifCUTn2zwaJzt8TG4IkqeM7mA8qYw0
+
+
+Package Control:
+Este gestor de instalación de paquetes permite instalar plugins, el más importante de todos, la instalación consiste en Ir a menú –>View hacer click en –>Show console, en la parte inferior del editor aparecerán dos campos de texto, luego donde esta el cursor debes pegar este código para la versión 3 o ir a la página oficial https://packagecontrol.io/installation si es que tiene la version distinta como sublime tex2.
+
+
+
+ 
+
+
+luego de haberlo instalado con presionar las teclas Ctrl+Shift+p se mostrará una ventana donde Escribiremos “install package” luego aparecerá otra ventana donde colocaremos el nombre de los plugins que deseamos instalar, a continuacion mostrare los s recomendados para iniciar.
+HTML5:
+Un plugin un tanto basico pero muy bueno que carga la estructura base de un archivo html.
+HTML beautifier:
+Este Plugin con presionar las teclas Ctrl+Shift+Alt+f identa correctamente todo nuestro codigo html.
+
+
+
+ 
+
+Auto Filename:
+Un plugin imprescindible que permite vincular archivos mediante la sugerencia ya sean imágenes, hojas de estilo al usar etiquetas como: href, src, en php require_once y otros.
+DocBlockr:
+Permite insertar comentario para la documentación, tiene soporte para PHP ,ActionScript ,, CoffeeScript , Java , Apex , Objective C , C , C ++ y entre otros, para usar escriba las primeras lineas /** presione la tecla tab.
+
+
+
+ 
+
+SFTP:
+Este plugin permite la conexión con el servidor FTP, así editar los archivos fuentes que están cargado en nuestro servidor. Para realizar la conexión se debe agregar el archivo JSON en nuestro proyecto y configurarlo los datos de la conexión.
+SublimeCodeIntel:
+Plugin mas completo para el auto completado de código y también reconoce las funciones definidas en nuestro proyecto .
+PHPManualer:
+Este plugin permite mostrar al pulsar las teclas ctrl + alt + d — ctrl + alt + s la documentación de las funciones nativas de PHP
+
+
+
+  
+BracketHighlighter:
+Su función es resaltar el código de apertura tales como: [], (), {} “,”, ”, # xml <tag> </ tag> y soportes personalizados que se puede configurar .
+
+
+
+ 
+
+Alignment:
+Con este plugin se puede organizar y alinear las variables, tan solo al seleccionar y presionando las teclas ctrl+alt+a se podrá alinear.
+ColorPicker:
+Permite seleccionar en la paleta de color un color especifico, muy bueno al escribir código CSS. Para usar presione ctrl+alt+c.
+
+
+
+
+
+Estos son unos pocos de los muchos pugins que existen(enserio, si son muchos) que nos facilitan cada vez un poco mas nuestro trabajo o proyectos personales, y aunque muchos los conocen ya no es una mala idea dar a conocerlos con los nuevos programadores que poco a poco se suman a este mundo.
+
+Fuente : https://medium.com/@josehollow24/sublimetext-la-vieja-confiable-plugins-para-aprovechar-al-maximo-esta-herramienta-6d2b9b8b35d
+
