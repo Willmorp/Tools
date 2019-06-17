@@ -11,3 +11,7 @@ https://app.exur.com/plantillas
 /*seguimiento por email*/
 https://www.getresponse.es
 https://revoluciondigital.com/
+
+
+/*video automatico de dan*/
+https://events.genndi.com/live/169105139238468068/9ed66bd71d/jot/135264170
