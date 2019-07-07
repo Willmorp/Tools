@@ -12,6 +12,9 @@
 <br>https://imagecompressor.com/es/
 <br>/*VECTORIZAR IMAGENES*/
 <br>https://www.vectorizer.io/
+<br>/*Mapa de Ruta Desarrollador 2019*/
+<br>https://roadmap.sh/
 <br>/**/
-<br>
+<br>/**/
+<br>https://roadmap.sh/
 <br>/**/
